@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    height: 233px;
+    background: #294c71 url(../../assets/images/fundo.png);
+    position: relative;
+}
+
+.header__logo {
+    width: 63%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    
+   
+}
+
+.header__logo--text {
+    margin-top: 20px;
+}
+
+.headermenu {
+    width: 63%;
+    margin: 0 auto;
+    background: green;
+    float: left;
+    position: absolute;
+    bottom:100px;
+    left: 19%;
+
+
+        
+}
+
+.headermenu__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headermenu__menu li{
+    float: left;
+    
+    
+    
+
+}
+
+    .headermenu__menu a {
+        color: #fff;
+        text-decoration: none;
+        
+
+    }
