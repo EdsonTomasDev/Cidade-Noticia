@@ -6,11 +6,11 @@
 }
 
 .header__logo {
-    width: 63%;
+    width: 58%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background: orange;
+    /* background: orange; */
     
    
 }
@@ -20,35 +20,40 @@
 }
 
 .headermenu {
-    width: 63%;
+    width: 50%;
     margin: 0 auto;
-    background: green;
+    /* background: green; */
     float: left;
     position: absolute;
-    bottom:100px;
-    left: 19%;
-
-
-        
+    bottom:62px;
+    left: 21.5%;
+    padding: 15px 0 15px 0;
+   
+      
 }
 
 .headermenu__menu {
     list-style: none;
     margin: 0;
     padding: 0;
+    
+   
 }
 
 .headermenu__menu li{
     float: left;
-    
-    
-    
-
+     
 }
 
-    .headermenu__menu a {
-        color: #fff;
-        text-decoration: none;
-        
+.headermenu__menu li a {
+    color: #e9dadb;
+    text-decoration: none;  
+    padding: 15px 20px;
+    background: #b6153a;     
 
-    }
+}
+.headermenu__menu li a:hover {
+    text-decoration: none;       
+    background: #e01d41;
+    color: #ffe1f4;
+}
