@@ -1,16 +1,16 @@
 .header {
     width: 100%;
     height: 233px;
-    background: #294c71 url(../../assets/images/fundo.png);
+    background: #294c71 url(../../assets/images/fundo.png) repeat-x;
     position: relative;
 }
 
 .header__logo {
-    width: 58%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* background: orange; */
+  
     
    
 }
@@ -26,7 +26,7 @@
     float: left;
     position: absolute;
     bottom:62px;
-    left: 21.5%;
+    left: 23%;
     padding: 15px 0 15px 0;
    
       
@@ -42,18 +42,39 @@
 
 .headermenu__menu li{
     float: left;
+    /* background: #b10333; */
      
 }
 
 .headermenu__menu li a {
-    color: #e9dadb;
+    font-size: 0.9em;
+    color: #fff;
     text-decoration: none;  
-    padding: 15px 20px;
-    background: #b6153a;     
+    padding: 10px 20px;
+    line-height: 2.1em;
+    background: #b10333 url(../../assets/images/divisor.png) no-repeat left center;     
 
+
+}
+
+.headermenu ul .headermenu__menunot a{
+    background: #b10333;
 }
 .headermenu__menu li a:hover {
     text-decoration: none;       
     background: #e01d41;
-    color: #ffe1f4;
+    color: #69001d;
+}
+
+body.home .headermenu__menu a#home,
+body.brasil .headermenu__menu a#brasil,
+body.internacional .headermenu__menu a#internacional,
+body.economia .headermenu__menu a#economia,
+body.saude .headermenu__menu a#saude,
+body.ciencia .headermenu__menu a#ciencia,
+body.fotos .headermenu__menu a#fotos {
+    color:#fff;
+    background: #de003e;
+    cursor: text;
+    
 }
