@@ -1,0 +1,17 @@
+.content {
+    width: 55%;
+    margin: 0 auto;
+    background: red;
+    display: flex;
+    
+}
+
+.content__lateral {
+    width: 25%;
+    background: blue;
+}
+
+.content__content {
+    width: 75%;
+    background:yellowgreen;
+}

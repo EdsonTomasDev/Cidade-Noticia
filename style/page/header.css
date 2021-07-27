@@ -3,6 +3,8 @@
     height: 233px;
     background: #294c71 url(../../assets/images/fundo.png) repeat-x;
     position: relative;
+    border: 1px solid green;
+    margin-bottom: 10px;
 }
 
 .header__logo {
@@ -26,7 +28,7 @@
     float: left;
     position: absolute;
     bottom:62px;
-    left: 23%;
+    left: 22.5%;
     padding: 15px 0 15px 0;
    
       
