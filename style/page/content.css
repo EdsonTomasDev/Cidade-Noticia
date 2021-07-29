@@ -10,9 +10,22 @@
 .content__lateral {
     width: 25%;
     background: url(../../assets/images/fundo-caixa.png);
+    margin: 0;
+    padding: 0;
 }
 
 .content__content {
     width: 72%;
     background: url(../../assets/images/fundo-caixa.png);
+}
+
+.content__lateral--interview {
+    background: #294c71;
+    color: #fff;
+    margin: 10px;
+}
+
+.content__lateral--interview h3 {
+    margin: 0;
+    padding: 5px;
 }
