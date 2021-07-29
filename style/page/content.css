@@ -1,17 +1,18 @@
 .content {
     width: 55%;
     margin: 0 auto;
-    background: red;
+    /* background: red; */
     display: flex;
+    justify-content: space-between;
     
 }
 
 .content__lateral {
     width: 25%;
-    background: blue;
+    background: url(../../assets/images/fundo-caixa.png);
 }
 
 .content__content {
-    width: 75%;
-    background:yellowgreen;
+    width: 72%;
+    background: url(../../assets/images/fundo-caixa.png);
 }
