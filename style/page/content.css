@@ -29,3 +29,26 @@
     margin: 0;
     padding: 5px;
 }
+.content__lateral--menu {
+   
+}
+.content__lateral--menu ul{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.content__lateral--menu ul li{
+    border-bottom: 1px solid #f7f7f7;
+    padding: 9px;
+    background: #fff;
+}
+
+.content__lateral--menu ul li a{
+   text-decoration: none;
+   color: #494a50;
+   font-weight: bold;
+}
+.content__lateral--menu ul li:hover {
+    background: #f7f7f7;
+}
