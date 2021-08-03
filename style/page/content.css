@@ -14,10 +14,6 @@
     padding: 0;
 }
 
-.content__content {
-    width: 72%;
-    background: url(../../assets/images/fundo-caixa.png);
-}
 
 .content__lateral--interview {
     background: #294c71;
@@ -51,4 +47,31 @@
 }
 .content__lateral--menu ul li:hover {
     background: #f7f7f7;
+}
+
+.content__content {
+    width: 73%;
+    background: url(../../assets/images/fundo-caixa.png);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content__content--center {
+    width: 48%;
+    border:1px solid red;  
+    
+
+}
+
+.content__content--right {
+    width: 48%;
+    border:1px solid blue;
+}
+
+.content__content--center h3, .content__content--right h3 {
+    padding: 5px;
+    background: #294c71;
+    color: #fff;
+    margin: 10px;
 }
