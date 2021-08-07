@@ -4,6 +4,7 @@
     /* background: red; */
     display: flex;
     justify-content: space-between;
+
     
 }
 
@@ -75,3 +76,23 @@
     color: #fff;
     margin: 10px;
 }
+
+/* Page brasil.html */
+
+.brasilcontent__content {
+    width: 96%;
+    background: url(../../assets/images/fundo-caixa.png);
+    border: 1px solid rebeccapurple;
+}
+
+/* Page fotos.html */
+
+.fotoscontent {
+    width: 55%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    background: url(../../assets/images/fundo-caixa.png);
+    
+    padding: 0;
+}
+
