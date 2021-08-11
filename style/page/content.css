@@ -65,9 +65,10 @@
 }
 .content__content--centertext {
     width: 92%;
-    background: green;
+    background: #fff;
     margin: 0 auto;
     padding-top: 3px;
+    padding-bottom: 3px;
 }
 .content__content--centertext img {
     width: 96% ;
@@ -96,6 +97,16 @@
     font-weight: bold;
     font-size: 14px;
     display: inline;
+}
+.content__content--centertext p {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.content__content--centertext a {
+    color: #db2142;
+    margin-left: 5px;
 }
 
 .content__content--right h4 {
