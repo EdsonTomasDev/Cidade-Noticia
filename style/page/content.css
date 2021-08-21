@@ -109,14 +109,38 @@
     margin-left: 5px;
 }
 
-.content__content--right h4 {
-    padding: 5px;
+.content__content--righttext {
+    width: 92%;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.content__content--righttext img {
+    width: 96% ;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.content__content--righttext h4 {
+    padding: 2px;
     background: #ae1639;
     color: #fedbe1;
     margin: 10px;
     font-weight: bold;
     font-size: 14px;
     display: inline;
+}
+
+.content__content--righttext p {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.content__content--righttext a {
+    color: #db2142;
+    margin-left: 5px;
 }
 
 /* Page brasil.html */
